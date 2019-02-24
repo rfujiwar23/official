@@ -1,0 +1,231 @@
+body {
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+	font-size:0.9em;
+	background: url(../img/pattern.jpg)
+}
+
+
+
+#wrapper {
+	padding: 60px 0 0 0;
+	
+
+	
+}
+
+.row {
+	max-width:1166px;
+	margin:0 auto;
+	border-right:1px #636363 dashed;
+	border-left: 1px #636363 dashed;
+	overflow: hidden;
+}
+
+
+
+
+
+#top .top_i {
+/*	background:#C5696B;*/
+	width:68.86%;
+	max-width: 800px;
+	margin:0 auto;
+	padding-top:150px;
+	
+}
+
+#top .top_i h1 {
+	text-align: center;
+	padding-top:30px;
+}
+
+#top .top_i h2, h3, p {
+	text-align: center;
+}
+
+#top .top_i .top_text {
+	text-align: center;
+	background:#000;
+	color:aliceblue;
+	
+}
+
+#bio h1, #web h1, #music h1, #misc h1, #contact h1 {
+	padding:20px 0 5px 15px;
+	font-family: 'Permanent Marker', cursive;
+/*	text-shadow: 0px 0px 1px #000;*/
+}
+/* Bio Section*/
+#bio, #web, #music, #misc {
+/*	border-top:1px #636363 dashed;*/
+/*	border-bottom: 1px #636363 dashed;*/
+	padding: 60px 0 0 0;
+}
+
+#bio .life, #bio .qualifications {
+	width:32.59%;
+	background-color: #D5D5D5;
+	background-blend-mode: soft-light;
+	float:left;
+/*	margin-left:30px;*/
+	margin-top:30px;
+	margin-right:10px;
+	border: 1px dotted #9a9a9a;
+	opacity: 0.8;
+}
+
+#bio .qualifications {
+	margin-bottom:30px;
+}
+
+#bio .life h4, #bio .qualifications h4 {
+	border-left: #669C84 3px solid;
+	padding: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	border-bottom: 1px solid #000;
+	font-style: italic;
+	font-family: Snell Roundhand, cursive;
+	font-size:1.2em;
+}
+
+#bio .life p, #bio .qualifications p {
+	text-align: inherit;
+	padding: 10px;
+	font-size: 0.9em;
+}
+
+#bio .qualifications p em.skill_name, #bio .qualifications p em.school_name {
+	text-decoration: underline;
+	font-weight:bold;
+}
+/* Bio Section*/
+
+
+/*Web Section*/
+#web .design {
+	background:#fff;
+	width:85%;
+	margin:0 auto;
+	border-radius: 30px;
+	box-shadow: 2px 2px 2px #000;
+}
+
+#web .design .github {
+	margin: 30px 0;
+	text-align: center;
+	padding:30px 0;
+}
+
+
+
+
+
+
+/*Web Section*/
+
+/*Music Section*/
+#music .media {
+	width:33%;
+	margin-left:30px;
+}
+/*Music Section*/
+
+/*Misc. Section*/
+#misc #videos {
+	width:45%;
+	background-color:aliceblue;
+}
+
+#misc #videos p {
+	text-align: justify;
+	padding: 5px 15px;
+}
+/*Misc. Section*/
+
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+/*  background-color: red;*/
+  color: white;
+  height:300px;
+}
+
+#footer p {
+	float:left;
+	position:absolute;
+	bottom:0;
+	background: #000;
+}
+
+#footer img {
+	float:right;
+	
+}
+
+
+/* img responsive */
+
+img.max-image{
+	max-width: 100%;
+	height: auto;
+	width /***/:auto; /*IE8のみ適用*/
+}
+
+
+iframe:focus { 
+  outline: none;
+}
+
+iframe[seamless] { 
+  display: block;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	#header {
+		background: #A1070A;
+}
+	#top .top_i {
+		width: 350px;
+		margin:0 auto;
+	}
+	
+	
+	#music .media {
+	width:100%;
+	margin-left:0 10px;
+	}
+	
+	#bio .life, #bio .qualifications {
+		width:90%;
+		padding:0;
+		margin:10px auto;
+		float:none;
+	}
+	
+		
+
+}
+
+/* Small devices (portrait tablets and large phones, max width 768px) */
+@media only screen and (max-width: 768px) {
+	
+	
+}
+
+
+/* Medium devices (landscape tablets, max width 800px) */
+@media only screen and (max-width: 800px) {
+
+	#header ul {
+		width:100%;
+	}
+	
+	#header ul li {
+		width: 16.66666%;
+	}
+	
+} 
+
